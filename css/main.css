@@ -1,0 +1,95 @@
+.container{
+    background-image: linear-gradient(to right,#7F7FD5, #86A8E7,#91EAE4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+    color: var(--text-color);
+    padding: 0 12px;
+
+}
+
+.container header{
+    font-size: 6.0rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container p{
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 550px;
+}
+
+.time-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    width: 100%;
+}
+
+.time-box .time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time .number{
+    font-size: 4.0rem;
+}
+
+.time .text{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.dream-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dream-box .p{
+    font-size: 1.8rem;
+}
+
+.dream-box__input{
+    height: 40px;
+    max-width: 360px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.dream-box__input input{
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 6px;
+}
+
+.dream-box__input button{
+    border: none;
+    border-radius: 4px;
+    width: 60px;
+    color: #7F7FD5;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.dream-box__input button:hover{
+    color:#91EAE4;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
